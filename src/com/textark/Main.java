@@ -3,6 +3,13 @@ package com.textark;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        ABC obj = new ABC();
+    }
+}
+
+
+class ABC{
+    public ABC(){
+        System.out.println("Constructor");
     }
 }
